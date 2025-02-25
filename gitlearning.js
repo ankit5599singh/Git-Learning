@@ -23,3 +23,15 @@
 
 // git config --global --list
 // By using "git config --global --list" command we can check the global git configuration details.
+
+// git log
+// Displays the commit history with detailed information.
+
+// git log --oneline
+// Shows a compact commit history with one commit per line.
+
+// git log --oneline --graph
+// Displays a visual representation of the commit history in a concise format.
+
+// git log --oneline --graph --all
+// Shows the commit history for all branches, including the current branch.
