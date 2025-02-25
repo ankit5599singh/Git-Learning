@@ -18,4 +18,8 @@
 // git add.
 // This command add all files to staging area
 
-//
+// git commit -m "This is Initial Commit"
+// By using "git commit -m" command we can commit the files in staging area with a message decribing the changes done by us.
+
+// git config --global --list
+// By using "git config --global --list" command we can check the global git configuration details.
