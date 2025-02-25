@@ -35,3 +35,12 @@
 
 // git log --oneline --graph --all
 // Shows the commit history for all branches, including the current branch.
+
+// git checkout c50cc28
+// Switches to the commit with hash c50cc28(This is simple Commit ID that we have to use to switch between 2 commits), updating the working directory to that state.
+
+// git checkout main(Main is the name of main/master branch)
+// Switches to the main branch (older method, still works)
+
+// git switch main(Main is the name of main/master branch)
+// Switches to the main branch (recommended for newer Git versions)
