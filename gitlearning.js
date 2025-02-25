@@ -44,3 +44,15 @@
 
 // git switch main(Main is the name of main/master branch)
 // Switches to the main branch (recommended for newer Git versions)
+
+// git restore --staged gitlearning.css
+// Removes gitlearning.css from the staging area without discarding changes.(This Command should be used in combination with below command)
+
+// git restore gitlearning.css
+// Restores gitlearning.css to its last committed state, undoing uncommitted changes.
+
+// git reset HEAD gitlearning.css
+// Unstages gitlearning.css moving it from the staging area back to the working directory.(This Command should be used in combination with below command)
+
+// git checkout -- gitlearning.css
+// Restores gitlearning.css to its last committed state, discarding uncommitted changes.
