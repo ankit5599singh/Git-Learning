@@ -71,3 +71,9 @@
 
 // git log --all --oneline --graph
 // This command shows the commit history of all branches in a compact, one-line format with an ASCII graph representing branch structures.
+
+// git commit --amend -m "This is 2nd Commit in About Branch"
+// This command modifies the most recent commit by replacing its message with "This is 2nd Commit in About Branch", without changing its content.
+
+// git push --force
+// Overwrites the remote branch with the amended commit, Use only if the commit has already been pushed, as force-pushing can rewrite history and affect collaborators(Inorder to change commited message before or after pushing we need to use it in combination with above command)
