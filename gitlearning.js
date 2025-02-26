@@ -101,3 +101,15 @@
 
 // git push
 // This command uploads the committed changes from the current branch to its associated upstream remote branch
+
+// git clone https://github.com/ankit5599singh/Git-Learning.git
+// This command creates a local copy of the remote repository, downloading all files, commit history, and branches from GitHub.
+
+// git fetch
+// This command retrieves the latest changes from the remote repository without merging them into the local branch, allowing you to review updates before integrating them.
+
+// git merge origin/main
+// This command merges the latest changes from the remote main branch (fetched using git fetch) into your current local branch.
+
+// git pull
+// This command fetches the latest changes from the remote repository and automatically merges them into the current local branch(This command is combo of fetch + merge)
