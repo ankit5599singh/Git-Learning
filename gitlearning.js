@@ -56,3 +56,9 @@
 
 // git checkout -- gitlearning.css
 // Restores gitlearning.css to its last committed state, discarding uncommitted changes.
+
+// git branch
+// "git branch" lists, creates, renames, and deletes branches, helping manage parallel development in a Git repository
+
+// git branch about
+// The command git branch about attempts to create a new branch named about. If a branch with that name already exists, it does nothing.
