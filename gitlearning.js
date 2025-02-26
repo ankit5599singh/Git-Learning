@@ -89,3 +89,12 @@
 
 // git merge contact -m "Merging contact branch into main"
 // This command merges the contact branch into the current branch while providing a custom commit message instead of opening the default editor.
+
+// git remote show origin
+// This command displays detailed information about the origin remote, including its URL, fetch and push URLs, tracking branches, and the latest fetch status.
+
+// git remote add origin https://github.com/ankit5599singh/Git-Learning.git
+// This Command adds a remote named origin and links it to the specified GitHub repository, allowing you to push and pull code from it.
+
+// git push -u origin main
+// This command pushes the main branch to the origin remote and sets it as the upstream branch, allowing future git push and git pull commands to be used without specifying origin main.
