@@ -77,3 +77,9 @@
 
 // git push --force
 // Overwrites the remote branch with the amended commit, Use only if the commit has already been pushed, as force-pushing can rewrite history and affect collaborators(Inorder to change commited message before or after pushing we need to use it in combination with above command)
+
+// git branch --delete contact
+// This command deletes the local branch named contact, but only if it has been fully merged into the current branch.
+
+// git branch -D contact
+// This command forcefully deletes the local branch named contact, even if it has unmerged changes, potentially leading to data loss.
