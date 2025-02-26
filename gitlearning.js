@@ -62,3 +62,12 @@
 
 // git branch about
 // The command git branch about attempts to create a new branch named about. If a branch with that name already exists, it does nothing.
+
+// git log –all
+// "git log --all" displays the commit history of all branches, including those not currently checked out
+
+// git log --all --oneline
+// This command lists the commit history of all branches in a concise, single-line format.
+
+// git log --all --oneline --graph
+// This command shows the commit history of all branches in a compact, one-line format with an ASCII graph representing branch structures.
