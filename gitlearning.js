@@ -83,3 +83,9 @@
 
 // git branch -D contact
 // This command forcefully deletes the local branch named contact, even if it has unmerged changes, potentially leading to data loss.
+
+// git merge contact
+// This command merges the contact branch into the current branch, combining changes from both branches. If conflicts exist, Git will prompt for resolution before completing the merge.(Please note me have to give merge message with this command on editor)
+
+// git merge contact -m "Merging contact branch into main"
+// This command merges the contact branch into the current branch while providing a custom commit message instead of opening the default editor.
