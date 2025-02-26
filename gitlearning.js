@@ -98,3 +98,6 @@
 
 // git push -u origin main
 // This command pushes the main branch to the origin remote and sets it as the upstream branch, allowing future git push and git pull commands to be used without specifying origin main.
+
+// git push
+// This command uploads the committed changes from the current branch to its associated upstream remote branch
