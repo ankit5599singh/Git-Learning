@@ -172,3 +172,20 @@
 
 // .gitignore
 // A .gitignore file is used to specify files and directories that Git should ignore (not track or commit), Files listed in .gitignore are not tracked by Git unless manually forced with git add -f.
+
+// git rm --cached style.css
+// removes style.css from Git's tracking while keeping the file in the working directory. It is useful when you want to stop tracking a file but not delete it locally
+
+// git rm --cached -r Controller
+// removes the Controller directory and all its contents from Git's tracking while keeping the files locally. This is useful when you want to stop tracking the directory but not delete it from your system
+
+// git remote
+// is used to manage remote repositories. It lists, adds, removes, or renames remote connections in a Git project.
+
+// git remote -v
+// displays the remote repositories associated with the project, showing their names and URLs for both fetch and push operations.
+
+// git restore --staged .
+// unstages all files that were added to the staging area, moving them back to the working directory without discarding changes
+
+// git commit -am "This is the 14th commit in main branch"
