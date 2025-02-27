@@ -193,3 +193,12 @@
 
 // git checkout 6575377 gitlearning.js
 // restores gitlearning.js to its state from commit 6575377 while keeping other files unchanged.
+
+// git config --global --e
+// Opens the global Git configuration file in the default text editor for editing.
+
+// git switch -C footer
+// creates and switches to a new branch named footer, replacing it if it already exists.
+
+// git revert 8f09214 -m 1
+// reverts a merge commit (8f09214) by keeping changes from the first parent (-m 1), creating a new commit that undoes the merge without deleting history
