@@ -131,3 +131,6 @@
 
 // git checkout HEAD~1(Number of commit behind Head)
 // This command switches to the commit just before the latest commit (one commit behind HEAD), putting the repository in a detached HEAD state.
+
+// git reset --soft HEAD~4
+// moves the current branch back by four commits while keeping all changes staged, allowing you to modify or recommit them.
