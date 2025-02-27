@@ -13,9 +13,11 @@
 
 // git add gitlearning.html
 // By default all the files in git branch is untracted so we have to use "git add" to file in staging area
+
 // git add gitlearning.html git.js.
 // This command add multiple files in staging area
-// git add.
+
+// git add .
 // This command add all files to staging area
 
 // git commit -m "This is Initial Commit"
@@ -134,3 +136,24 @@
 
 // git reset --soft HEAD~4
 // moves the current branch back by four commits while keeping all changes staged, allowing you to modify or recommit them.
+
+// git revert 4821318
+// creates a new commit that undoes the changes made by commit 4821318, preserving the commit history instead of modifying it like git reset
+
+// git revert HEAD~6..HEAD
+// sequentially reverts the last 6 commits, creating a new commit for each reversal while preserving the commit history.
+
+// git revert --no-commit HEAD~5..
+// reverts the last 5 commits without creating separate revert commits, keeping the changes in the working directory for manual review before committing
+
+// git revert --abort
+// cancels an ongoing revert process and restores the repository to its previous state before the revert command was initiated.
+
+// git revert --continue
+// completes an ongoing revert process after resolving conflicts, allowing Git to create the revert commit.
+
+// git merge --abort
+// cancels an in-progress merge and restores the repository to its state before the merge was initiated.
+
+// git stash-m "This is the first stash on main branch"
+// saves the current uncommitted changes in a stash with the message "This is the first stash on main branch" while keeping the working directory clean
