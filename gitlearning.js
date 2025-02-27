@@ -157,3 +157,12 @@
 
 // git stash-m "This is the first stash on main branch"
 // saves the current uncommitted changes in a stash with the message "This is the first stash on main branch" while keeping the working directory clean
+
+// git stash drop
+// removes the most recent stash from the stash list without applying its changes.
+
+// git stash clear
+// permanently removes all stashed entries from the stash list.
+
+// git cherry-pick 4821318
+// applies the changes from commit 4821318 to the current branch, creating a new commit with the same changes(We can simple selected our choice of commit in multiple commits while merging between 2 branches)
