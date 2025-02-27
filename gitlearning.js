@@ -166,3 +166,9 @@
 
 // git cherry-pick 4821318
 // applies the changes from commit 4821318 to the current branch, creating a new commit with the same changes(We can simple selected our choice of commit in multiple commits while merging between 2 branches)
+
+// git commit -m "This is two command" && git push
+// && ensures the next command runs only if the commit is successful.
+
+// .gitignore
+// A .gitignore file is used to specify files and directories that Git should ignore (not track or commit), Files listed in .gitignore are not tracked by Git unless manually forced with git add -f.
