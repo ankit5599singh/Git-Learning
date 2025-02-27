@@ -113,3 +113,21 @@
 
 // git pull
 // This command fetches the latest changes from the remote repository and automatically merges them into the current local branch(This command is combo of fetch + merge)
+
+// git reset 3923211
+// This command moves the current branch to commit 3923211, unstaging all changes from later commits but keeping them in the working directory for modification. This is the default reset mode(Don't use this command if commit is pushed on GitHub)
+
+// git reset --hard 3923211
+// This command moves the current branch to commit 3923211, discarding all changes and commits after it permanently. This action cannot be undone unless backed up(Don't use this command if commit is pushed on GitHub)
+
+// git reset --soft 3923211
+// This command moves the current branch to commit 3923211 but keeps all changes from later commits staged, allowing you to modify or recommit them(Don't use this command if commit is pushed on GitHub)
+
+// git reflog
+// This command shows a history of all recent actions (commits, resets, checkouts, etc.) in the repository, even those that are not part of the commit history, helping to recover lost commits.
+
+// git checkout HEAD
+// This command switches to the latest commit of the current branch, discarding any uncommitted changes in tracked files
+
+// git checkout HEAD~1(Number of commit behind Head)
+// This command switches to the commit just before the latest commit (one commit behind HEAD), putting the repository in a detached HEAD state.
