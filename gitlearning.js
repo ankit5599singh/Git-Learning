@@ -189,3 +189,7 @@
 // unstages all files that were added to the staging area, moving them back to the working directory without discarding changes
 
 // git commit -am "This is the 14th commit in main branch"
+// stages all modified/deleted tracked files and commits them with the given message.
+
+// git checkout 6575377 gitlearning.js
+// restores gitlearning.js to its state from commit 6575377 while keeping other files unchanged.
